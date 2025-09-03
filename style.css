@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+   padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom:30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.term {
+  cursor: pointer;
+  padding: 15px;
+  background-color: #fff;
+  margin-bottom: 2em; /* Adds space between terms */
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s;
+}
+
+.term:hover {
+  background-color: #eee;
+}
+
+.definition {
+  display: none;
+  padding: 10px;
+  color: #555;
+}
+
+definition p {
+  margin-bottom: 1em; /* Adds space between excerpts */
+}
+
+.definition small {
+  color: #666;
+  font-style: italic;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #add8e6; /* Light blue color */
+  color: #222;
+  padding: 20px;
+}
